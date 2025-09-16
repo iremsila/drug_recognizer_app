@@ -6,6 +6,13 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Drug Recogniz App</string>
+	<key>NSCameraUsageDescription</key>
+    <string>Ilac etiketini taramak icin kameraya ihtiyacimiz var.</string>
+	<key>UIBackgroundModes</key>
+    <array>
+      <string>remote-notification</string>
+      <string>processing</string>
+    </array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
